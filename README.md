@@ -14,3 +14,5 @@ Take in a CSV generated from kibana of your sysmon events, and output a tree sty
             └── [171,578] Event: DNSEvent
 ```
 numbers in `[]` are the event log ID.
+
+The tree is in timestamped order, with the exception of no process events, which are added after the tree is created.
